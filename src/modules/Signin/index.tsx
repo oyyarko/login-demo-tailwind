@@ -105,7 +105,7 @@ const Signin = () => {
             <p className="text-center text-gray-400 mb-4 max-sm:hidden">OR</p>
           </div>
           <div className="grid grid-cols-5 gap-3 max-sm:mb-4">
-            <Button className="!bg-amber-200/20 !text-primary gap-2 col-span-3">
+            <Button className="!bg-amber-200/20 !text-primary gap-2 col-span-3 pointer-events-none cursor-none">
               <img src={googleIcon} alt="google" />
               Sign in with Google
             </Button>
