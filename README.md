@@ -13,3 +13,7 @@ Login Demo with Tailwind, Typescript, React-hook-form
 8. dashboard logout button to remove from redux
 9. react-hook-form for form validation with yup
 10. error message when fields are empty or not valid
+11. Detect if password is wrong for the email
+12. detect if email doesn't exist in redux
+
+# If page is refreshed, Redux will be cleared, and user will redirect to signin page. even if user is in Dashboard page.
